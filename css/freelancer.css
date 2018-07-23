@@ -326,6 +326,11 @@ header.masthead h2 {
   vertical-align: baseline;
   opacity: 0;
 }
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
 
 .floating-label-form-group:not(:first-child) {
   padding-left: 14px;
@@ -383,10 +388,24 @@ a:focus, a:hover, a:active {
 .text-secondary {
   color: #2C3E50 !important;
 }
+.text-overlay {
+  color: #FFFFFF !important;
+    font-weight: 9000;
+ 	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+  font-size: 1.5em;
 
+}
+.bottom-pad{
+	padding-bottom:3em;
+}
 .btn-primary {
   background-color: #18BC9C;
   border-color: #18BC9C;
+
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
